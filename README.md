@@ -10,7 +10,7 @@ in this tutorial, you’ll learn about anchors, quantifiers, group constructs, b
 - [User Story](#user-story)
 - [Acceptance Criteria](#acceptance-criteria)
 - [Author info.](#autor-info) 
-- [Licencia] (#licencia)
+- [Licencia](#licencia)
 
 
 ## User Story
