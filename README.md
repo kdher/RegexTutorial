@@ -1,11 +1,13 @@
 # RegexTutorial
-## Deployed link:
+## Deployed link tutorial:
+ [RegexTutorial](gist-template.md)
 ## Description
+in this tutorial, you’ll learn about anchors, quantifiers, group constructs, bracket, character classes, Or operator, Flags and character escaper in regular expressions to match a set of characters including digits, whitespace, and word characters.
 ## Table of Contents
 -[User Story](#user-story)
 -[Acceptance Criteria](#acceptance-criteria)
--[Author info.] 
-Licencia
+-[Author info.](#autor-info) 
+-[Licencia] (#licencia)
 
 ## User Story
 
@@ -28,3 +30,9 @@ THEN I find a detailed explanation of what a specific component of the regex doe
 WHEN I reach the end of the tutorial
 THEN I find a section about the author and a link to the author’s GitHub profile
 ```
+## Autor info:
+Eder Rodrigo Ramirez Contreras 
+Gitgub: https://github.com/kdher/
+mail: edher.fca@gmail.com
+## Licencia
+[![license](https://img.shields.io/badge/license-MIT-blue)](https://shields.io)

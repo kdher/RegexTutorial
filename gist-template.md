@@ -1,4 +1,4 @@
-# Title (replace with your title)
+# Regex Tutorial
 
 In this tutorial you will learn how regular expressions work, as well as how to use them to perform pattern matching in an efficient way in JavaScript.
 
@@ -34,7 +34,7 @@ Anchors have special meaning in regular expressions. They do not match any chara
  Output:
 
  ```Javascript
- true;
+ true
  ```
 
  The /^J/ match any text that starts with the letter J. It returns true.
@@ -70,7 +70,7 @@ let re = /Java\w*/g
 let results = str.match(re);
 
 console.log(results);
-Code language: JavaScript (javascript)
+
 ```
 Output:
 ```Javascript
@@ -104,7 +104,7 @@ That regexp is not perfect, but mostly works and helps to fix accidental mistype
 
 
 ### Bracket Expressions
-Brackets
+
 In this part we will just look at one group of symbols in depth, the brackets. [ ]
 Brackets indicate a set of characters to match. Any individual character between the brackets will match, and you can also use a hyphen to define a set.
 
@@ -141,7 +141,6 @@ You can use these in conjunction with a comma to specify more than one amount. {
 'Firsty McLastname'.replace(/([A-Za-z]+)\s([A-Za-z]+)/, '$2, $1') // -> returns 'McLastname, Firsty'
 'Firstipher Lasterman'.replace(/([A-Za-z]+)\s([A-Za-z]+)/, '$&') // -> returns 'Firstipher Lasterman'
 ```
-
 ### Character Classes
 A character class allows you to match any symbol from a certain character set. A character class is also called a character set. Suppose that you have a phone number like this:
 ```Javascript
@@ -164,9 +163,7 @@ let phone = '+1-(706)-345-4960';
 let re = /\d/;
 
 console.log(phone.match(re));
-
 ```
-
 Output:
 ```Javascript
 ["1"]
@@ -219,8 +216,8 @@ A flag changes the default searching behaviour of a regular expression. It makes
 A flag is denoted using a single lowercase alphabetic character.
 
 In JavaScript regex, we have a total of 6 flags, each serving a different purpose.
-| Flag | Name |Modification|
-| --------- | --------- | --------- |
+| Flag | Name | Modification |
+|:---------: | :------------ | :--------- |
 | i | Ignore Casing| Makes the expression search case-insensitively|
 | g |Global |Makes the expression search for all occurrences.|
 | s |Dot All |Makes the wild character . match newlines as well.|
@@ -254,5 +251,7 @@ Parentheses are also special characters, so if we want them, we should use \(. T
 ```javascript
 alert( "function g()".match(/g\(\)/) ); // "g()"
 ```
-## Author
+## Author info:
+check page : https://www.javascripttutorial.net/
 
+I am Eder Rodrigo Ramirez Contreras and my Gitgub is https://github.com/kdher/
