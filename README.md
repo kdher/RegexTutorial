@@ -6,12 +6,12 @@
 in this tutorial, you’ll learn about anchors, quantifiers, group constructs, bracket, character classes, Or operator, Flags and character escaper in regular expressions to match a set of characters including digits, whitespace, and word characters.
 
 ## Table of Contents
-```
--[User Story](#user-story)
--[Acceptance Criteria](#acceptance-criteria)
--[Author info.](#autor-info) 
--[Licencia] (#licencia)
-```
+
+- [User Story](#user-story)
+- [Acceptance Criteria](#acceptance-criteria)
+- [Author info.](#autor-info) 
+- [Licencia] (#licencia)
+
 
 ## User Story
 
